@@ -4,7 +4,6 @@ var PORT = '3000';
 
 var middleware = require('./middleware.js');
 
-
 /*
 //moved to 'middleware.js
 var middleware = { //to add our own middleware to eXpress you need to create a function that takes three arguments:req,res,next. Middelware runs before page rendering and that's where the next param comes in.
