@@ -2,6 +2,7 @@ var express = require('express');
 var app = express();
 var PORT = '3000';
 
+
 var middleware = { //to add our own middleware to eXpress you need to create a function that takes three arguments:req,res,next. Middelware runs before page rendering and that's where the next param comes in.
     requireAuthentication: function(req, res, next) {
         console.log('private route hit');
